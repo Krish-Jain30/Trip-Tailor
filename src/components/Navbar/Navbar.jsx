@@ -1,5 +1,6 @@
 import Logo from "../../assets/Logo2.png";
-import decore from '../../assets/Decore.png'
+import decore from '../../assets/Decore.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,12 +12,12 @@ const Navbar = () => {
         </span>
 
         <div className="hidden md:flex gap-4 justify-between items-center">
-          <button className="login-btn btn1 px-4 md:px-6 py-1 md:py-2">
+        <Link to="login" ><button className="login-btn btn1 px-4 md:px-6 py-1 md:py-2">
             <p>LogIn</p>
-          </button>
-          <button className="signup-btn btn2 border-[1.6px] border-black rounded-md px-4 md:px-6 py-1 md:py-2">
+          </button></Link>
+          <Link to="signup" ><button className="signup-btn btn2 border-[1.6px] border-black rounded-md px-4 md:px-6 py-1 md:py-2">
             <p className="font-semibold">SignUp</p>
-          </button>
+          </button></Link>
         </div>
 
       </nav>

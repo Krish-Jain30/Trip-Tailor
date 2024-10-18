@@ -25,10 +25,10 @@ const SubscribeSection = () => {
           </div>
         </div>
       </div>
-      <div className="absolute max-xl:-bottom-[430%] lg:-bottom-[256%] lg:right-48 xl:-bottom-[222%] xl:right-72 max-xl:right-32 max-md:hidden w-16 h-16 bg-purple-500 rounded-full flex justify-center items-center text-white">
+      <div className="absolute max-xl:-bottom-[447%] lg:-bottom-[263%] lg:right-48 xl:-bottom-[227%] xl:right-72 max-xl:right-32 max-md:hidden w-16 h-16 bg-purple-500 rounded-full flex justify-center items-center text-white">
         <IoIosSend className="text-4xl" />
       </div>
-      <img src={art} alt="" className="absolute w-24 z-10 md:left-7 md:-bottom-[466%] lg:-bottom-[295%] max-md:hidden  xl:left-7 rotate-180 xl:-bottom-[255%]" />
+      <img src={art} alt="" className="absolute w-24 z-10 md:left-7 md:-bottom-[487%] lg:-bottom-[303%] max-md:hidden  xl:left-7 rotate-180 xl:-bottom-[260%]" />
     </div>
   );
 };

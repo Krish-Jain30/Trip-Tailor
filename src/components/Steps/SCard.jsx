@@ -5,7 +5,7 @@ import rome from "../../assets/rome.jpg"
 const SCard = () => {
   return (
     <div className="w-[50%]">
-      <div className="flex flex-col gap-1 p-4 w-64 h-72 bg-white shadow-lg rounded-xl max-lg:hidden">
+      <div className="flex flex-col gap-1 p-4 w-64 bg-white shadow-lg rounded-xl max-lg:hidden">
       <img src={greece} alt="" className="rounded-xl w-full"/>
       <div className="flex flex-col space-y-2 pt-2">
       <h4 className="text-blue-800 font-semibold">Trip To Greece</h4>
