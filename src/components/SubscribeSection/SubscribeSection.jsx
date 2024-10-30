@@ -13,13 +13,13 @@ const SubscribeSection = () => {
             Subscribe to get information, latest news and other interesting offers about triptailor
           </h2>
 
-          <div className="mt-6 flex justify-center flex-col sm:flex-row">
+          <div className="mt-6 space-x-4 flex justify-center flex-col sm:flex-row">
             <input
               type="email"
               placeholder="Your email"
-              className="px-4 py-3 w-full sm:w-64 md:w-80 rounded-l-lg sm:rounded-none sm:rounded-l-lg border border-gray-300 focus:outline-none mb-4 sm:mb-0"
+              className="px-4 py-3 w-full sm:w-64 md:w-80 rounded-lg border border-gray-300 focus:outline-none mb-4 sm:mb-0"
             />
-            <button className="bg-[#F1A501] text-white px-6 py-3 rounded-r-lg hover:bg-[#ffae00] transition duration-300 sm:w-auto w-full">
+            <button className="bg-[#F1A501] text-white px-6 py-3 rounded-lg hover:bg-[#ffae00] transition duration-300 sm:w-auto w-full">
               Subscribe
             </button>
           </div>

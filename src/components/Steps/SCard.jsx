@@ -17,7 +17,7 @@ const SCard = () => {
       </div>
       
       </div>
-      <div className="flex absolute bg-white gap-2 shadow-lg w-56 h-20 p-4 rounded-xl max-xl:right-1 max-xl:top-[295%] max-lg:hidden xl:right-28 xl:top-[273%]">
+      <div className="flex absolute bg-white gap-2 shadow-lg w-56 h-20 p-4 rounded-xl max-xl:right-1 max-xl:top-[319%] max-lg:hidden xl:right-28 xl:top-[293%]">
         <img src={rome} alt="" className="rounded-full w-11 h-11 mt-1" />
         <div className="">
         <p className="text-xs text-gray-600">Previous Trip</p>
