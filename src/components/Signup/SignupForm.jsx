@@ -69,12 +69,12 @@ const SignupForm = () => {
             </div>
           </div>
           <div>
-            <button
+            <Link to="/explore" ><button
               type="submit"
               className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Sign Up
-            </button>
+            </button></Link>
           </div>
         </form>
         <p className="mt-6 text-center text-gray-600 text-sm">
