@@ -137,9 +137,9 @@ const ExploreMain = () => {
   }, [loading, itineraries]);
 
   return (
-    <div className="App min-h-screen bg-white text-gray-700">
+    <div>
       <ExploreNav />
-
+    <div className="App min-h-screen bg-white text-gray-700">
       <main className="p-4 sm:p-6">
         <div className="flex justify-center mb-4 sm:mb-6">
           <div className="relative w-full max-w-lg">
@@ -227,11 +227,12 @@ const ExploreMain = () => {
             <ImSpinner2 className="animate-spin text-2xl text-gray-600" />
           </div>
         )}
-
-        {/* Footer */}
-        <Footer />
+        
       </main>
     </div>
+    <Footer />
+    </div>
+
   );
 };
 

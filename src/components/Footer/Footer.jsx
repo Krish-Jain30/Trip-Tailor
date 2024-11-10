@@ -1,5 +1,7 @@
 import logo from "../../assets/Logo2.png";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -36,7 +38,7 @@ const Footer = () => {
           <div className="pt-10 w-[30%]">
             <h2 className="font-bold pb-2">Company</h2>
             <ul>
-              <li className="text-gray-600 text-sm sm:text-md">About</li>
+              <Link to="/about"><li className="text-gray-600 text-sm sm:text-md">About</li></Link>
               <li className="text-gray-600 text-sm sm:text-md">Careers</li>
               <li className="text-gray-600 text-sm sm:text-md">Mobile</li>
             </ul>

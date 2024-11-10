@@ -5,6 +5,8 @@ import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
 import Explore from "./pages/Explore";
 import NewItinerary from "./pages/NewItinerary"; // Import the new itinerary creation page
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -39,6 +41,14 @@ const App = () => {
     {
       path: "/new-itinerary", // New route for creating itinerary
       element: <NewItinerary />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
     },
   ]);
 

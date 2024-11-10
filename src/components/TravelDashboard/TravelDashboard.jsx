@@ -1,8 +1,9 @@
 
 const TravelDashboard = () => {
   return (
-    <div>
-      
+    <div >
+      <p>welcome to Dashboard </p>
+      <p>coming soon</p>
     </div>
   )
 }
